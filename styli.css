@@ -10,9 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-}
-.tip {
-  display: flex;
+  background-image: cover no-repeat;
 }
 .bill-input {
   width: 336px;
@@ -34,10 +32,21 @@ body {
   height: 303px;
   background-color: #03958a;
   border-radius: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 .reset-button {
   width: 336px;
   height: 30px;
+}
+.select-tip {
+  width: 336px;
+  height: 107px;
+}
+p {
+  font-size: 18px;
+  color: #01464b;
+  margin-bottom: 4px;
 }
 .tips {
   gap: 12px;
@@ -46,11 +55,21 @@ body {
   justify-content: space-between;
   box-sizing: border-box;
 }
-button {
+.tips button {
   width: 70px;
   height: 35px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #01464b;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
 }
-.reset-button {
+#reset-button {
   width: 336px;
   height: 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
 }
